@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+object_detection/
+model_nematoide/
 build/
 develop-eggs/
 dist/
