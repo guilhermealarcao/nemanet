@@ -4,15 +4,15 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-REQUIRED_PACKAGES = ['Pillow>=1.0', 'Flask', 'tensorflow==1.15rc2', 'six', 'matplotlib']
+REQUIRED_PACKAGES = ['Pillow>=1.0', 'tensorflow==1.15rc2', 'six', 'matplotlib' , 'PyQt5' , 'imutils' , 'lxml']
 
 setup(
-    name='webrtc_object_detection',
+    name='nemanet',
     version='0.1',
     install_requires=REQUIRED_PACKAGES,
     include_package_data=True,
     packages=[p for p in find_packages()],
-    description='Tensorflow Object Detection with WebRTC',
+    description='AI to count and classify nematodes.',
 )
 
 '''Download the Object Dectection directory'''
