@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-REQUIRED_PACKAGES = ['Pillow>=1.0', 'tensorflow==1.15rc2', 'six', 'matplotlib' , 'PyQt5' , 'imutils' , 'lxml']
+REQUIRED_PACKAGES = ['Pillow>=1.0', 'tensorflow==2.7.2', 'six', 'matplotlib' , 'PyQt5' , 'imutils' , 'lxml']
 
 setup(
     name='nemanet',
